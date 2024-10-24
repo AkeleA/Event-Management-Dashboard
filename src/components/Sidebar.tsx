@@ -217,7 +217,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, onToggleCollapse }) => {
 
               {/* Red Notification Dot when Collapsed */}
               {isCollapsed && (
-                <span className="absolute top-0 right-0 w-3 h-3 bg-red-600 rounded-full"></span>
+                <span className="absolute top-0 right-0 w-2 h-2 bg-red-600 rounded-full"></span>
               )}
             </div>
 
@@ -227,7 +227,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, onToggleCollapse }) => {
                 <span className="font-normal text-sm leading-5 dark:text-white">
                   Notifications
                 </span>
-                <span className="w-6 h-6 rounded-full bg-red-600 text-white flex items-center justify-center">
+                <span className="w-2 h-2 rounded-full bg-red-600 text-white font-inter text-xs flex items-center justify-center">
                   3
                 </span>
               </div>
